@@ -1,0 +1,12 @@
+package com.helloworld.app.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloworldController {
+	@RequestMapping("/")
+	  String helloWorld() {
+	    return "Hello World!";
+	  }
+}
